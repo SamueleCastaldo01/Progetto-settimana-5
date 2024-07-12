@@ -263,13 +263,13 @@ header ul li {
     }
 }
 
-@media screen and (max-width: 700px) {  /*Smartphone*******/
+@media screen and (max-width: 950px) {  /*Smartphone*******/
     .howOld {
         flex-direction: column-reverse;
     }
 
     .tredCard {
-        width: 350px;
+        width: 100%;
     }
 
     .howOld {
@@ -281,4 +281,9 @@ header ul li {
     ul li:nth-child(3) {
         display: none;
     }
+    
+    .divM {
+        display: none;
+    }
+
 }
