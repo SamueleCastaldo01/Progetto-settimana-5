@@ -248,3 +248,41 @@ header ul li {
 }
 
 
+
+@media screen and (min-width: 700px) and (max-width: 1205px) {  /*Tablet*******/
+    .howOld {
+        flex-direction: column-reverse;
+    }
+
+    .tredCard {
+        width: 350px;
+    }
+
+    .howOld {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {  /*Smartphone*******/
+    .howOld {
+        flex-direction: column-reverse;
+    }
+
+    .tredCard {
+        width: 100%;
+    }
+
+    .howOld {
+        margin-top: 40px;
+    }
+
+    header ul li:nth-child(1),
+    ul li:nth-child(2),
+    ul li:nth-child(3) {
+        display: none;
+    }
+    
+    .divM {
+        display: none;
+    }
+}
