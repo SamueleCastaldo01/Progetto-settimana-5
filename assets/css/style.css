@@ -80,11 +80,11 @@ header ul li {
 .divM {
     position: absolute;
     right: -8px;
-    top: 0px;
+    top: -20px;
 }
 
-.divM img {
-    width: 550px;
+.divM svg {
+    width: 500px;
 }
 
 /* tredingOnMedium ************************************/
