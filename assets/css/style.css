@@ -147,17 +147,61 @@ header ul li {
 .divOldCard {
     flex: 1.5;
     flex-direction: column;
+    margin-top: 70px;
 }
 
 .oldCard {
     display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.oldCard h2 {
+    margin-bottom: 7px;
+}
+
+.oldCard p {
+    font-size: 1.2em;
 }
 
 .discover {
     flex: 1;
 }
 
+.leftOldCard {
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .rigthOldCard img {
-    width: 350px;
+    flex: 1;
+    width: 300px;
+}
+
+.aging {
+    background-color: #F2F3F3;
+    color: #757575;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.star {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.footerOldCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerOldCard p {
+    font-size: 1em;
+}
+
+.divBookmark {
+    margin-left: auto;
 }
