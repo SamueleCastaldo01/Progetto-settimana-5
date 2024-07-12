@@ -111,7 +111,7 @@ header ul li {
 
 .tredCard {
     display: flex;
-    width: 350px;
+    width: 300px;
     gap: 20px;
 }
 
@@ -245,4 +245,10 @@ header ul li {
     margin: 10px;
     color: #757575;
     font-size: 1.1em;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1205px) {
+
+    
+    
 }
