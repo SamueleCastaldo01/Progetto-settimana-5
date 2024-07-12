@@ -4,7 +4,7 @@ function stickyHeader() {
     var header = document.getElementById("myHeader");
     var getS = document.getElementById("getS")
 
-    if (window.pageYOffset > 0) { /* Cambia colore quando si scrolla verso il basso */
+    if (window.pageYOffset > 380) { /* Cambia colore quando si scrolla verso il basso */
         header.style.backgroundColor = "#fff"; // Colore di sfondo bianco
         getS.style.backgroundColor = "#1a8917"
     } else {
