@@ -4,9 +4,10 @@
     margin: 0px;
     padding: 0px;
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
-header, .divStay {
+header, .divStay, .tredingOnMedium {
     padding: 1% 10% 1% 10%;
 }
 
@@ -38,7 +39,6 @@ header ul li {
 }
 
 /* MAIN ************************************/
-
 .divStay h1 {
     font-family: "Spectral", serif;
     font-size: 6em;
@@ -49,7 +49,7 @@ header ul li {
     color: #FFFFFF;
     background-color: #181919;
     border-radius: 30px;
-    padding: 10px 50px;
+    padding: 10px 60px;
     font-size: 20px;
 }
 
@@ -83,3 +83,53 @@ header ul li {
 .divM img {
     width: 550px;
 }
+
+/* tredingOnMedium ************************************/
+
+.tredingOnMedium {
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.divTredCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.divTredTitle {
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.tredCard {
+    display: flex;
+    width: 450px;
+}
+
+.tredCard h2 {
+    color: #E6E7E7;
+    font-size: 2.2em;
+}
+
+.divImgTre {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 8px 0px;
+    font-weight: 500;
+}
+
+.divImgTre img {
+    border-radius: 30px;
+    width: 25px;
+}
+
+.pDate {
+    color: #757575;
+    margin-top: 8px;
+}
+
