@@ -18,6 +18,9 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 header ul {
@@ -177,6 +180,7 @@ header ul li {
     justify-content: space-between;
 }
 
+
 .rigthOldCard img {
     flex: 1;
     width: 300px;
@@ -215,6 +219,11 @@ header ul li {
     margin-top: 15px;
     padding-bottom: 35px;
     border-bottom: 1px solid #E6E7E7;
+}
+
+.divDiscover {
+    position: sticky;
+    top: 100px;
 }
 
 .divButtonDiscover button {
