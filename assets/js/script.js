@@ -1,18 +1,16 @@
-window.onscroll = function() {stickyHeader()};
-
-function stickyHeader() {
+window.addEventListener("scroll", function () {
     var header = document.getElementById("myHeader");
     var getS = document.getElementById("getS")
-
-    if (window.pageYOffset > 380) { /* Cambia colore quando si scrolla verso il basso */
-        header.style.backgroundColor = "#fff"; // Colore di sfondo bianco
+    if (window.scrollY > 380) {
+              header.style.backgroundColor = "#fff"; // Colore di sfondo bianco
         getS.style.backgroundColor = "#1a8917"
     } else {
         header.style.backgroundColor = "#ffc017"; // sfondo originale
         getS.style.backgroundColor = "#181919"
     }
-}
+  });
 
+  
 // animazione
 const gElements = document.getElementsByTagName("g");
 const gElementsFiltered = Array.from(gElements).filter(
