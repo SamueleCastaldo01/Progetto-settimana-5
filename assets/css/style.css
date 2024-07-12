@@ -108,7 +108,7 @@ header ul li {
 
 .tredCard {
     display: flex;
-    width: 450px;
+    width: 350px;
     gap: 20px;
 }
 
@@ -142,12 +142,14 @@ header ul li {
 /* howOld ************************************/
 .howOld {
     display: flex;
+    gap: 3%;
+    justify-content: space-between;
+    margin-top: 70px;
 }
 
 .divOldCard {
     flex: 1.5;
     flex-direction: column;
-    margin-top: 70px;
 }
 
 .oldCard {
@@ -165,11 +167,11 @@ header ul li {
 }
 
 .discover {
-    flex: 1;
+    flex: 0.9;
 }
 
 .leftOldCard {
-    flex: 1.7;
+    flex: 1.3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -204,4 +206,34 @@ header ul li {
 
 .divBookmark {
     margin-left: auto;
+}
+
+/* discover ************************************/
+.divButtonDiscover {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #E6E7E7;
+}
+
+.divButtonDiscover button {
+    padding: 15px;
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid #E6E7E7;
+    color: #757575;
+    font-size: 1.1em;
+}
+
+.divHelp {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.divHelp p {
+    margin: 10px;
+    color: #757575;
+    font-size: 1.1em;
 }
